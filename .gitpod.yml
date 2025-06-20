@@ -1,0 +1,8 @@
+image: gitpod/workspace-full
+
+tasks:
+  - init: ./gradlew jsBrowserDevelopmentRun --continuous
+    command: npm install
+ports:
+  - port: 8080
+    onOpen: open-preview
