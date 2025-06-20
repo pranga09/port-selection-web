@@ -16,7 +16,6 @@ kotlin {
     js(IR) {
         browser {
             binaries.executable()
-            runTask {}
         }
     }
     sourceSets {
